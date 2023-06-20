@@ -88,6 +88,52 @@ li {
 
 /* End Failure Area Style  */
 
+
+/* Start Achivement area Style */
+.achivement {
+    background-image: url(./images/banner/achive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.achivement-area {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.achivement-box {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightcyan;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.achivement-img {
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.achivement-img img {
+    width: 40px;
+}
+
+.achivement-flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+
+/* End Achivement area Style */
+
+
 /* Start My Plan Area Style  */
 
 .heading-text {
@@ -123,3 +169,76 @@ li {
 }
 
 /* End My Plan Area Style  */
+
+/* Start Motivation Area Style  */
+.motivation-area {
+    background-image: url(./images/gradient1.png), url(./images/watch.png);
+    height: 300px;
+}
+
+.motivation-info {
+    padding: 50px;
+}
+
+.motivation-info h2 {
+    margin-bottom: 40px;
+    width: 40%;
+    color: white;
+    font-size: 30px;
+}
+
+/* End Motivation area Style  */
+
+/* Start Footer Style  */
+
+footer {
+    background-color: black;
+}
+
+.footer-area {
+    display: flex;
+    color: white;
+    padding: 50px 0;
+    justify-content: space-evenly;
+}
+
+.my-info {
+    width: 45%;
+}
+
+.footer-area h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.my-info a img {
+    width: 35px;
+}
+
+.my-info a {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.subscribe-area input {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 30px 0;
+    color: white;
+}
+
+.subscribe-area a {
+    text-decoration: none;
+    background-color: #025fa9;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* End footer style  */
